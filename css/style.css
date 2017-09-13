@@ -33,10 +33,6 @@ body {
     margin: 0 auto;
 }
 
-#line {
-    width: 1px;
-}
-
 #leftCol {
     float: left;
     width: 25%;
@@ -47,6 +43,16 @@ body {
     width: 71%;
     margin: auto 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#centerCol div {
+    text-align: center;
+    padding: auto 10px;
+}
+
+#centerCol div img {
+    float: center;
+    padding: auto 10px;
 }
 
 #leftCol nav {
@@ -63,14 +69,22 @@ body {
 #leftCol nav ul li a {
     text-decoration: none;
     color: #B2ADAD;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-width: 246px;
 }
 
 #leftCol nav ul li a:hover {
-    color: #000000;
-    border-width: 246px;
+    color: #CFC7C7;
     border-color: #B2ADAD;
     background-color: #B2ADAD;
+    border-width: 240px;
+}
+
+#leftCol nav ul li a.current,
+#leftCol nav ul li a.current:hover {
+    background: #000000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#101028), to(#101028));
+    color: #fff;
 }
 
 #Header {
