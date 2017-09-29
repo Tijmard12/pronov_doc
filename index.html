@@ -7,7 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-           
+        <title> ProNov Documentation </title>
+        <link rel="icon" type="image/png" href="img\ProNov.png">        
+
     </head>
     <body>
 
@@ -17,13 +19,14 @@
                 <nav class="navbar navbar-inverse bg-inverse">
                     <div class="navbar-header">
                         <a class="navbar-brand" href="#">
-                            <img alt="ProNov Logo" src="img/ProNov.png" height="50px;" width="50px">
+                            <img alt="ProNov Logo" src="img\ProNov.png" height="50px;" width="50px">
                         </a>
-                        <a href="#" class="btn btn-default" role="button" style="color: white;">Home</a>
-                        <a href="#" class="btn btn-default" role="button" style="color: white;">Documentation</a>
-                        <a href="#" class="btn btn-default" role="button" style="color: white; float: right;">Log In</a>
-                        <a href="#" class="btn btn-default" role="button" style="color: white; float: right;">Dashboard</a>
-                    </div>
+                        <a href="#" class="btn btn-default" role="button" style="color: white;" >Home </a>
+                        <a href="#" class="btn btn-default" role="button" style="color: white;"> Documentation</a>
+                        <a href="#" class="btn btn-default" role="button" style="color: white; float: right; margin-top: 10px"> Sign In </a>                        
+                        <a href="#" class="btn btn-default" role="button" style="color: white; float: right; margin-top: 10px"> Log In </a>
+                        <a href="#" class="btn btn-default" role="button" style="color: white; float: right; margin-top: 10px"> Dashboard </a>
+                        </div>
                 </nav>
 
                 <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
@@ -55,7 +58,7 @@
                     
                         <div class="col col-lg-3">
 
-                            <div class="container-fluid" style="text-align:center;"> 
+                            <div class="container-fluid" style="text-align:center;" id="menuBar"> 
 
                                 <div id="accordion" role="tablist" aria-multiselectable="true">
 
@@ -70,17 +73,12 @@
                                             </h6>
                                         </div>
 
-                                        <!-- <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne"> -->
                                         <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">                                            
-                                            <!-- <div class="card-block"> -->
-                                                <!-- <div id="collapseOne" class="panel-collapse collapse"> -->
-                                                    <ul class="list-group">
-                                                        <li class="list-group-item">
-                                                            <a href="#" class="h6" onclick="appendText()"> Welcome </a>
-                                                        </li>
-                                                    </ul>
-                                                <!-- </div> -->
-                                            <!-- </div> -->
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Welcome </a>
+                                                </li>
+                                            </ul>
                                         </div>
                                         
                                     </div>
@@ -112,7 +110,7 @@
                                             <h6 class="mb-0">
                                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"  small class="text-muted">
                                                     Inventory Management
-                                                        </a>
+                                                </a>
                                             </h6>
                                         </div>
                 
@@ -263,15 +261,36 @@
                         <!-- <div id="displayContent"> -->
                         <div class="col col-lg-9">
                                         
-                            <h6 class="display-4"> Heading </h6>
+                            <h6 class="display-4"> Welcome! </h6>
                             
                             <hr>
                             <div id="welcomeMessage">
-                                <p class="lead"> ProNOV is a lean mobile-based business intelligent solution that helps micro-retailers manage their inventory, 
+
+                                <h6> ProNov documentation - a simple, organized, and searchable interface. </h6>
+                                    
+                                <p class="lead">
+                                    Here is what you should know before you start:
+                                </p>
+
+                                <ol>
+                                    <li>
+                                        Navigate the documentation by clicking the side tabs to select what you want.
+                                    </li>
+                                    <li>
+                                        You can use the search tab at the top-right to search anything here.
+                                    </li>
+                                    <li>
+                                        Please consider supporting the app by sending in you comments and recommendations.                                         
+                                    </li>
+                                    <li>
+                                        Thanks and happy using our app.
+                                    </li>
+                                </ol>
+                                
+                                <!-- <p class="lead"> ProNOV is a lean mobile-based business intelligent solution that helps micro-retailers manage their inventory, 
                                     ensure on-time availability of goods, help them source goods cheaper through bulk breaking, and potentially pass on the lower cost of 
                                     goods to the targeted population in the Bottom of Pyramid (BoP). For this roll-out phase, ProNOV is deployed at the grassroot micro-pharmacies 
-                                    to improve the availability and affordability of critical life saving drugs while eliminating counterfeiting. </p>
-                        
+                                    to improve the availability and affordability of critical life saving drugs while eliminating counterfeiting. </p>                                                                                                                                                                         -->
                             </div>
 
                         </div>
@@ -286,7 +305,7 @@
             </div>
             <!-- End of mainContent -->
 
-            <div id="footer">
+            <div id="footer" style="margin-top: 4%; border-top: 3%; padding-top: 2%;">
                 <footer style="text-align:center; font-size: 15px; ">
                     <p class="pull-right"><a href="#">Back to top</a></p>
                     <p>&copy; 2016 <a href="https://loftyincltd.biz/" target="_blank"> LoftyInc Allied Partners </a> by her 2017 interns <a href="https://github.com/" target="_blank"> @mubarak01 </a>
