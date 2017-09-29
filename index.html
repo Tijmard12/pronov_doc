@@ -10,25 +10,101 @@
         <title> ProNov Documentation </title>
         <link rel="icon" type="image/png" href="img\ProNov.png">        
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         
     </head>
     <body>
-
+            <i class="glyphicon glyphicon-search"></i>
         <div mainBody>
 
             <div id="mainContent">
-                <nav class="navbar navbar-inverse bg-inverse">
+                <nav class="navbar  bg" style="background-color:#4B8F4B;">
+
                     <div class="navbar-header">
                         <a class="navbar-brand" href="#">
                             <img alt="ProNov Logo" src="img\ProNov.png" height="50px;" width="50px">
                         </a>
-                        <a href="#" class="btn btn-default" role="button" style="color: white;" >Home </a>
-                        <a href="#" class="btn btn-default" role="button" style="color: white;"> Documentation</a>
-                        <a href="#" class="btn btn-default" role="button" style="color: white; float: right; margin-top: 10px"> Sign In </a>                        
-                        <a href="#" class="btn btn-default" role="button" style="color: white; float: right; margin-top: 10px"> Log In </a>
-                        <a href="#" class="btn btn-default" role="button" style="color: white; float: right; margin-top: 10px"> Dashboard </a>
-                        </div>
-                </nav>
+                    </div>
+                    
+                    <a href="#" class="btn btn-default" role="button" style="color: white;" id="demo"> Home </a>
+                    
+                    <script>
+                        document.getElementById("demo").addEventListener("mouseover", mouseOver);
+                        document.getElementById("demo").addEventListener("mouseout", mouseOut);
+                            
+                        function mouseOver() {
+                            document.getElementById("demo").style.color = "silver";
+                        }
+                            
+                        function mouseOut() {
+                            document.getElementById("demo").style.color = "white";
+                        }
+                    </script>
+                        
+                    <a href="#" class="btn btn-default" role="button" style="color: white;" id="demo1"> Documentation </a>
 
+                    <script>
+                        document.getElementById("demo1").addEventListener("mouseover", mouseOver);
+                        document.getElementById("demo1").addEventListener("mouseout", mouseOut);
+                            
+                        function mouseOver() {
+                            document.getElementById("demo1").style.color = "silver";
+                        }
+                            
+                        function mouseOut() {
+                            document.getElementById("demo1").style.color = "white";
+                            }
+                    </script>
+                    
+                    <!-- <a href="#" class="btn btn-default" role="button" style="color: white; margin-top: 10px" id="demo3"> Sign In </a>
+                    
+                    <script>
+                        document.getElementById("demo3").addEventListener("mouseover", mouseOver);
+                        document.getElementById("demo3").addEventListener("mouseout", mouseOut);
+                                
+                        function mouseOver() {
+                            document.getElementById("demo3").style.color = "silver";
+                        }
+                                
+                        function mouseOut() {
+                            document.getElementById("demo3").style.color = "white";
+                        }
+                    </script>
+                                                    
+                    <a href="#" class="btn btn-default" role="button" style="color: white; margin-top: 10px" id="demo4"> Log In </a>
+                    
+                    <script>
+                        document.getElementById("demo4").addEventListener("mouseover", mouseOver);
+                        document.getElementById("demo4").addEventListener("mouseout", mouseOut);
+                                
+                        function mouseOver() {
+                            document.getElementById("demo4").style.color = "silver";
+                        }
+                                
+                        function mouseOut() {
+                            document.getElementById("demo4").style.color = "white";
+                        }
+                    </script>
+                        
+    
+                    <a href="#" class="btn btn-default" role="button" style="color: white;margin-top: 10px" id="demo5"> Dashboard </a>
+                    <script>
+                        document.getElementById("demo5").addEventListener("mouseover", mouseOver);
+                        document.getElementById("demo5").addEventListener("mouseout", mouseOut);
+                                
+                        function mouseOver() {
+                            document.getElementById("demo5").style.color = "silver";
+                        }
+                                
+                        function mouseOut() {
+                            document.getElementById("demo5").style.color = "white";
+                        }
+                    </script> -->
+
+                </nav>
+            </div>
+            
+            <div>
                 <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -46,11 +122,25 @@
                         </ul>
                         
                         <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
                         </form>
+                        
                     </div>
+                    
                 </nav>
+            </div>
 
                 <div class="container-fluid">
                     
@@ -58,7 +148,7 @@
                     
                         <div class="col col-lg-3">
 
-                            <div class="container-fluid" style="text-align:center;" id="menuBar"> 
+                            <div class="container-fluid" id="menuBar"> 
 
                                 <div id="accordion" role="tablist" aria-multiselectable="true">
 
@@ -66,9 +156,9 @@
 
                                         <div class="card-header" role="tab" id="headingOne">
                                             <h6 class="mb-0">
-                                                <!-- <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> -->
                                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" small class="text-muted">                                                    
-                                                    Getting Started
+                                                    <span class="glyphicon glyphicon-folder-close">   Getting Started
+                                                    <!-- replace glyphicon withfont-awesome or any other supported by Bootstrap 4 -->
                                                 </a>
                                             </h6>
                                         </div>
@@ -88,7 +178,7 @@
                                         <div class="card-header" role="tab" id="headingTwo">
                                             <h6 class="mb-0">
                                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" small class="text-muted">
-                                                    System Requirements
+                                                    <i class="fa fa-microchip" aria-hidden="true"></i>  System Requirements
                                                 </a>
                                             </h6>
                                         </div>
@@ -103,13 +193,15 @@
                                                 </li>
                                             </ul>
                                         </div>
+
                                     </div>
 
                                     <div class="card">
+                                        
                                         <div class="card-header" role="tab" id="headingThree">
                                             <h6 class="mb-0">
                                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"  small class="text-muted">
-                                                    Inventory Management
+                                                    <i class="fa fa-plus" aria-hidden="true"></i>Inventory Management
                                                 </a>
                                             </h6>
                                         </div>
@@ -135,7 +227,7 @@
                                         <div class="card-header" role="tab" id="headingFour">
                                             <h6 class="mb-0">
                                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" small class="text-muted">                                                    
-                                                    Store Management
+                                                    <i class="fa fa-university" aria-hidden="true"></i>    Store Management
                                                 </a>
                                             </h6>
                                         </div>
@@ -161,7 +253,7 @@
                                         <div class="card-header" role="tab" id="headingFive">
                                             <h6 class="mb-0">
                                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" small class="text-muted">
-                                                    Configuration
+                                                    <i class="fa fa-wrench" aria-hidden="true"></i>   Configuration
                                                 </a>
                                             </h6>
                                         </div>
@@ -187,7 +279,7 @@
                                         <div class="card-header" role="tab" id="headingSix">
                                             <h6 class="mb-0">
                                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix" small class="text-muted">
-                                                    Groups
+                                                    <i class="fa fa-handshake-o" aria-hidden="true"></i>  Groups
                                                 </a>
                                             </h6>
                                         </div>
@@ -210,7 +302,7 @@
                                         <div class="card-header" role="tab" id="headingSeven">
                                             <h6 class="mb-0">
                                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" small class="text-muted">                                                    
-                                                    Permissions
+                                                    <i class="fa fa-shield" aria-hidden="true"></i>     Permissions
                                                 </a>
                                             </h6>
                                         </div>
@@ -233,7 +325,7 @@
                                         <div class="card-header" role="tab" id="headingEight">
                                             <h6 class="mb-0">
                                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight" small class="text-muted">
-                                                    Users
+                                                    <i class="fa fa-users" aria-hidden="true"></i>    Users
                                                 </a>
                                             </h6>
                                         </div>
@@ -305,15 +397,16 @@
             </div>
             <!-- End of mainContent -->
 
-            <div id="footer" style="margin-top: 4%; border-top: 3%; padding-top: 2%;">
+            <div id="footer" style="padding-top:0.2%; padding-bottom:0.1; background-color:#4B8F4B; color:whitesmoke; height:30px;">
                 <footer style="text-align:center; font-size: 15px; ">
-                    <p class="pull-right"><a href="#">Back to top</a></p>
-                    <p>&copy; 2016 <a href="https://loftyincltd.biz/" target="_blank"> LoftyInc Allied Partners </a> by her 2017 interns <a href="https://github.com/" target="_blank"> @mubarak01 </a>
-                        <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                    <p class="pull-right"><a href="#" style="color:#1F3F1F">Developed by Team ProNov</a></p>
+                    <p>&copy; 2017  <a href="https://loftyincltd.biz/" target="_blank"> LoftyInc Allied Partners </a> and 
+                        <a href="website.pronov.co/" target="_blank"> ProNov </a> </p>
+                    <p><a href="#">Privacy</a> &middot; <a href="#">Terms</a> All right reserved</p>
                 </footer>
             </div>
             <!-- End of footer -->
-
+        
         </div>
         <!-- End of mainBody -->
         
