@@ -31,13 +31,19 @@
                 padding-bottom: 7%;
                 border-style: none;
             }
+            .btn {
+                font-size: 14px;
+            }
+            .nav-link{
+                font-size: 13px;
+            }
         </style>
     </head>
     <body>
 
         <div>
             <div>
-                <nav class="navbar navbar-inverse" style="background-color:#4B8F4B; padding-left:5%;">
+                <nav class="navbar navbar-inverse" style="background-color:#4B8F4B; padding-left:5%; padding-right:5%;">
                     <div class="navbar-header">                        
                         
                         <a class="navbar-brand" href="#">
@@ -46,10 +52,10 @@
                     
                             <a href="#" class="btn btn-default" role="button" style="color: white;" onmouseover="changedColor(this)" onmouseout="normalColor(this)"> Home </a>
                             <a href="#" class="btn btn-default" role="button" style="color: white;" onmouseover="changedColor(this)" onmouseout="normalColor(this)"> Documentation </a>
-                            <div style="float:right; margin-top:1%;">
-                                <a href="#" class="btn btn-default" role="button" style="color: white;" onmouseover="changedColor(this)" onmouseout="normalColor(this)"> Sign In </a>
-                                <a href="#" class="btn btn-default" role="button" style="color: white;" onmouseover="changedColor(this)" onmouseout="normalColor(this)"> Log In </a>
+                            <div style="float:right; margin-top:15px;">
+                                
                                 <a href="#" class="btn btn-default" role="button" style="color: white;" onmouseover="changedColor(this)" onmouseout="normalColor(this)"> Dashboard </a>
+                                <a href="#" class="btn btn-default" role="button" style="color: white;" onmouseover="changedColor(this)" onmouseout="normalColor(this)"> Log In </a>
                             </div>
 
                         <script>
@@ -64,7 +70,7 @@
                     </div>                    
                 </nav>
             
-                <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="padding-left:5%; border-bottom-style:solid; border-color:#E4E3E3; border-width:1px;">
+                <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="padding-left:5%; padding-right:5%; border-bottom-style:solid; border-color:#E4E3E3; border-width:1px;">
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -287,12 +293,12 @@
                         <div class="container-fluid">
 
                             <div id="content" style="margin-top:20px; width:auto; height:auto;">
-                                <h6 class="display-4"> Welcome! </h6>
+                                <h6 class="display-3"> Welcome! </h6>
                                 <hr>
-                                <h6> ProNov documentation - a simple, organized, and searchable interface. </h6>
+                                <h3> ProNov documentation - a simple, organized, and searchable interface. </h3>
                                     
-                                <p class="lead"> Here is what you should know before you start:</p>
-                                    <ol>
+                                <p style="font-size:15px;"> Here is what you should know before you start:</p>
+                                    <ol style="font-size:15px;">
                                         <li>Navigate the documentation by clicking the side tabs to select what you want.</li>
                                         <li>You can use the search tab at the top-right to search anything here.</li>
                                         <li>Please consider supporting the app by sending in you comments and recommendations.</li>
@@ -305,20 +311,18 @@
                     <!-- End of .col-lg-9 for the content -->
                 
                 </div> 
-                <!-- End of .row -->
-
-                <div id="footer" style="padding-top:0.2%; padding-bottom:0.1; background-color:#4B8F4B; color:whitesmoke; height:30px;">
+                <!-- End of .row -->                            
+            </div>
+            <!-- End of .container-fluid, with ID body-->
+            <div id="footer" style="padding-top:0.2%; padding-bottom:0.1; padding-right:2%; background-color:#4B8F4B; color:whitesmoke; height:30px;">
                     <footer style="text-align:center; font-size: 15px; ">
-                        <p class="pull-right"><a href="#" style="color:#1F3F1F">Developed by Team ProNov</a></p>
+                        <p class="pull-right"><a href="#" style="color:#1F3F1F;">Developed by Team ProNov</a></p>
                         <p>&copy; 2017  <a href="https://loftyincltd.biz/" target="_blank"> LoftyInc Allied Partners </a> and 
                             <a href="website.pronov.co/" target="_blank"> ProNov </a> </p>
                         <p><a href="#">Privacy</a> &middot; <a href="#">Terms</a> All right reserved</p>
                     </footer>
                 </div>
                 <!-- End of footer -->
-            
-            </div>
-            <!-- End of .container-fluid, with ID body-->
 
         </div>
         <!-- End of mainBody -->
