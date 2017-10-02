@@ -181,10 +181,10 @@
                                                 <a href="#" onclick="load_config()" class="h6"> Add </a>
                                             </li>
                                             <li class="list-group-item">
-                                                <a href="#" class="h6"> Manage </a>
+                                                <a href="#" onclick="load_config1()" class="h6"> Manage </a>
                                             </li>
                                             <li class="list-group-item">
-                                                <a href="#" class="h6"> Search </a>
+                                                <a href="#" onclick="load_config2()" class="h6"> Search </a>
                                             </li>
                                         </ul>
                                     </div>
@@ -194,7 +194,7 @@
                                     <div class="card-header" role="tab" id="headingSix">
                                         <h6 class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix" small class="text-muted">
-                                                <i class="fa fa-handshake-o" aria-hidden="true"></i>  Groups
+                                                <i class="fa fa-handshake-o" aria-hidden="true"></i> Groups
                                             </a>
                                         </h6>
                                     </div>
@@ -202,10 +202,10 @@
                                     <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
                                         <ul class="list-group">
                                             <li class="list-group-item">
-                                                <a href="#" class="h6"> Add </a>
+                                                <a href="#" onclick="load_groups()" class="h6"> Add </a>
                                             </li>
                                             <li class="list-group-item">
-                                                <a href="#" class="h6"> Manage </a>
+                                                <a href="#" onclick="load_groups1()" class="h6"> Manage </a>
                                             </li>
                                         </ul>
                                     </div>
@@ -262,7 +262,7 @@
                     <div class="col-lg-9">
                         <div class="container-fluid">
 
-                            <div id="content" style="margin-top:20px; width:auto; height:auto;">
+                            <div id="content" style="margin-top:20px; width:auto; height:auto; overflow-y:hidden; overflow-x:hidden;">
                                 <h6 class="display-3"> Welcome! </h6>
                                 <hr>
                                 <h3> ProNov documentation - a simple, organized, and searchable interface. </h3>
