@@ -11,32 +11,11 @@
 
         <link rel="icon" type="image/png" href="img\ProNov.png">
         <title> ProNov Documentation </title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/main.js"></script>
          
         <style>
-            .h6{
-                font-size: 12px;
-            }
-            a.text-muted:link, 
-            a.text-muted:visited,
-            a.text-muted:hover, 
-            a.text-muted:active{
-                display: block;
-                padding-top: 5px;
-                text-decoration: none;
-            }
-            .text-muted{
-                font-size:14px;
-            }
-            .card .card-header{
-                padding-bottom: 7%;
-                border-style: none;
-            }
-            .btn {
-                font-size: 14px;
-            }
-            .nav-link{
-                font-size: 13px;
-            }
+            
         </style>
     </head>
     <body>
@@ -57,17 +36,7 @@
                                 <a href="#" class="btn btn-default" role="button" style="color: white;" onmouseover="changedColor(this)" onmouseout="normalColor(this)"> Dashboard </a>
                                 <a href="#" class="btn btn-default" role="button" style="color: white;" onmouseover="changedColor(this)" onmouseout="normalColor(this)"> Log In </a>
                                 <a href="#" class="btn btn-default" role="button" style="color: white;" onmouseover="changedColor(this)" onmouseout="normalColor(this)"> Sign Up </a>
-                            </div>
-
-                        <script>
-                            function changedColor(x){
-                                x.style.color = "silver";
-                            }
-                            function normalColor(x){
-                                x.style.color = "white";
-                            }
-                        </script>
-
+                            </div>                        
                     </div>                    
                 </nav>
             
@@ -80,10 +49,10 @@
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" id="link" href="#" style="margin-left:10px">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" style="margin-left:10px">Link</a>
                             </li>
                         </ul>
                         
@@ -202,14 +171,14 @@
                                         <h6 class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" small class="text-muted">
                                                 <i class="fa fa-wrench" aria-hidden="true"></i> Configuration
-                                        </a>
+                                            </a>
                                         </h6>
                                     </div>
                             
                                     <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
                                         <ul class="list-group">
                                             <li class="list-group-item">
-                                                <a href="#" class="h6"> Add </a>
+                                                <a href="#" onclick="load_config()" class="h6"> Add </a>
                                             </li>
                                             <li class="list-group-item">
                                                 <a href="#" class="h6"> Manage </a>

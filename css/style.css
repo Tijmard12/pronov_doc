@@ -1,0 +1,42 @@
+a.text-muted:link, 
+a.text-muted:visited,
+a.text-muted:hover, 
+a.text-muted:active{
+    display: block;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+a.h6:link, 
+a.h6:visited,
+a.h6:hover, 
+a.h6:active{
+	padding-top: 5px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.text-muted{
+    font-size:14px;
+}
+
+.h6{
+    font-size: 12px;
+}
+
+.card .card-header{
+    padding-bottom: 7%;
+    border-style: none;
+}
+
+.btn {
+    font-size: 14px;
+}
+
+.nav-link{
+    font-size: 13px;
+}
+
+.config{
+	font-size:15px;
+}
