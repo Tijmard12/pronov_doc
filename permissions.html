@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <title> ProNov Documentation </title>
+        <link rel="icon" type="image/png" href="img\ProNov.png">        
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         
+    </head>
+    <body>
+            <i class="glyphicon glyphicon-search"></i>
+        <div mainBody>
+
+            <div id="mainContent">
+                <nav class="navbar  bg" style="background-color:#4B8F4B;">
+
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">
+                            <img alt="ProNov Logo" src="img\ProNov.png" height="50px;" width="50px"; id="img" style="margin-left:20px;">
+                        </a>
+
+                        <a href="#" class="btn btn-default" id="topNav1" role="button" style="color: white;"> Home </a>
+                                                                
+                        <script>
+                            document.getElementById("topNav1").addEventListener("mouseover", mouseOver);
+                            document.getElementById("topNav1").addEventListener("mouseout", mouseOut);
+                                
+                            function mouseOver() {
+                                document.getElementById("topNav1").style.color = "silver";
+                            }
+                                
+                            function mouseOut() {
+                                document.getElementById("topNav1").style.color = "white";
+                            }
+                        </script>
+    
+                        <a href="#" class="btn btn-default" id="topNav2" role="button" style="color: white;"> Documentation </a>
+                                            
+                        <script>
+                            document.getElementById("topNav2").addEventListener("mouseover", mouseOver);
+                            document.getElementById("topNav2").addEventListener("mouseout", mouseOut);
+                                
+                            function mouseOver() {
+                                document.getElementById("topNav2").style.color = "silver";
+                            }
+                                
+                            function mouseOut() {
+                                document.getElementById("topNav2").style.color = "white";
+                            }
+                       </script>
+
+                        <a href="#" class="btn btn-default" id="topNav3" role="button" style="color: white; margin-left: 670px;"> Sign Up </a>
+                                            
+                    <script>
+                            document.getElementById("topNav3").addEventListener("mouseover", mouseOver);
+                            document.getElementById("topNav3").addEventListener("mouseout", mouseOut);
+                                
+                            function mouseOver() {
+                                document.getElementById("topNav3").style.color = "silver";
+                            }
+                                
+                            function mouseOut() {
+                                document.getElementById("topNav3").style.color = "white";
+                            }
+                        </script>
+    
+                        <a href="#" class="btn btn-default" id="topNav4" role="button" style="color: white;"> Log In </a>                                            
+                        <script>
+                            document.getElementById("topNav4").addEventListener("mouseover", mouseOver);
+                            document.getElementById("topNav4").addEventListener("mouseout", mouseOut);
+                                
+                            function mouseOver() {
+                                document.getElementById("topNav4").style.color = "silver";
+                            }
+                                
+                            function mouseOut() {
+                                document.getElementById("topNav4").style.color = "white";
+                            }
+                        </script>
+    
+                        <a href="#" class="btn btn-default" id="topNav5" role="button" style="color: white;"> Dashboard </a>                                            
+                        <script>
+                            document.getElementById("topNav5").addEventListener("mouseover", mouseOver);
+                            document.getElementById("topNav5").addEventListener("mouseout", mouseOut);
+                                
+                            function mouseOver() {
+                                document.getElementById("topNav5").style.color = "silver";
+                            }
+                                
+                            function mouseOut() {
+                                document.getElementById("topNav5").style.color = "white";
+                            }
+                        </script>
+    
+                    </div>
+                </nav>
+            </div>
+            
+            <div>
+                <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"> v1.0 </a>
+                    
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                        </ul>
+                        
+                        <form class="form-inline my-2 my-lg-0">
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </form>
+                        
+                    </div>
+                    
+                </nav>
+            </div>
+
+                <div class="container-fluid">
+                    
+                    <div class="row center-content-md-center" style="margin-top: 10px;">
+                    
+                        <div class="col col-lg-3">
+
+                            <div class="container-fluid" id="menuBar"> 
+
+                                <div id="accordion" role="tablist" aria-multiselectable="true" style="margin-right: 40px;">
+
+                                    <div class="card">
+
+                                        <div class="card-header" role="tab" id="headingOne">
+                                            <h6 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" small class="text-muted">                                                    
+                                                    <i class="fa fa-spinner" aria-hidden="true"></i> Getting Started
+                                                    <!-- replace glyphicon with font-awesome or any other supported by Bootstrap 4 -->
+                                                </a>
+                                            </h6>
+                                        </div>
+
+                                        <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">                                            
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <a href="index.html" class="h6"> Welcome </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="card">
+
+                                        <div class="card-header" role="tab" id="headingTwo">
+                                            <h6 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" small class="text-muted">
+                                                    <i class="fa fa-microchip" aria-hidden="true"></i> System Requirements
+                                                </a>
+                                            </h6>
+                                        </div>
+                
+                                        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Hardware Requirements </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Software Requirements </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="card">
+                                        
+                                        <div class="card-header" role="tab" id="headingThree">
+                                            <h6 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"  small class="text-muted">
+                                                    <i class="fa fa-plus" aria-hidden="true"></i> Inventory Management
+                                                </a>
+                                            </h6>
+                                        </div>
+                
+                                        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Register </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Add </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Manage </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+            
+                                    <div class="card">
+
+                                        <div class="card-header" role="tab" id="headingFour">
+                                            <h6 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" small class="text-muted">                                                    
+                                                    <i class="fa fa-university" aria-hidden="true"></i>    Store Management
+                                                </a>
+                                            </h6>
+                                        </div>
+                        
+                                        <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">                                            
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Add </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Manage </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Search </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    
+                                    <div class="card">
+
+                                        <div class="card-header" role="tab" id="headingFive">
+                                            <h6 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" small class="text-muted">
+                                                    <i class="fa fa-wrench" aria-hidden="true"></i>   Configuration
+                                                </a>
+                                            </h6>
+                                        </div>
+                            
+                                        <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Add </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Manage </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Search </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    
+                                    <div class="card">
+
+                                        <div class="card-header" role="tab" id="headingSix">
+                                            <h6 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix" small class="text-muted">
+                                                    <i class="fa fa-handshake-o" aria-hidden="true"></i>  Groups
+                                                </a>
+                                            </h6>
+                                        </div>
+                                
+                                        <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Add </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="h6"> Manage </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                
+                                    <div class="card">
+
+                                        <div class="card-header" role="tab" id="headingSeven">
+                                            <h6 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" small class="text-muted">                                                    
+                                                    <i class="fa fa-shield" aria-hidden="true"></i>     Permissions
+                                                </a>
+                                            </h6>
+                                        </div>
+                                    
+                                        <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">                                            
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <a href="permissions.html"  class="h6"> Add </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="permissions.html"  class="h6"> Manage </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>                        
+                                        
+                                    <div class="card">
+
+                                        <div class="card-header" role="tab" id="headingEight">
+                                            <h6 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight" small class="text-muted">
+                                                    <i class="fa fa-users" aria-hidden="true"></i>    Users
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        
+                                        <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <a href="#"  class="h6"> Invite </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#"  class="h6"> Manage </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- End of 1st Column, 1st row -->
+                        
+                        <!-- <div id="displayContent"> -->
+                        <div class="col col-lg-9">
+                                        
+                            <div>
+                                <h6 class="display-4"> Permissions </h6>
+
+                                <hr>
+
+                                <p> User's role determines what they can do. Each role has a default permission sets. </p>
+                                <p> Our default permissions are as follows: </p>
+                                <ol>
+                                    <li> Anyone can register to create a store (with or without branches). </li>
+                                    <li> Anyone who register the store is taken as the owners/managers are treated as the super-admin. </li>
+                                    <li> Only super-admin are allowed to invite others and add store keepers. </li>
+                                    <li> Owners/Managers have full rights to all contents on our app. Both the ones they creates and that of others within them. </li>
+                                    <li> Store keepers have full rights to contents they own. They can only edit, not delete. </li>
+                                    <li> Contributors have full right to add and edit contents they uploaded to our app- no delete. </li>
+                                    <li> Consumers have view-only rights. They cannot create contents. </li>
+
+                                </ol>
+                                
+                                <em><i class="fa fa-wrench" aria-hidden="true"></i> Our default permission matrix (in categories) is as follows... </em>
+
+                                <h5> General </h5>
+                                    <ul>
+
+                                        <li class="lead"> Browse tree </li>
+                                        <p> Allows users to perform document Management actions. Our system automatically blocks users without Permission. </p>
+
+                                        <li class="lead"> Read Content </li>
+                                            <p> Allows users access contents - read and preview. </p>
+
+                                            <li class="lead"> Check in any document </li>
+                                            <p> Authorizes users of certain role to access some actions and activities. Also allows them to view and review properties. </p>
+                                        
+                                        <li class="lead"> Create </li>
+                                            <p> Allows users to create branches and groups. </p>
+                                            
+                                        <li class="lead"> Modify </li>
+                                        <p> Grants users the following: </p>
+                                            <ol>
+                                                <li> Add content(s) </li>
+                                                <li> Edit content(s) </li>
+                                                <li> Adjust and/or change settings preferences </li>
+                                                <li> Adjust security level </li>
+                                            </ol>
+
+                                        <li class="lead"> Delete </li>
+                                        <p> Allows users to delete any document in the store. </p>
+
+                                        <li class="lead"> Destroy </li>
+                                        <p> Allows users to delete content(s) and/or document(s) without an UNDO option. </p>
+
+                                        <li class="lead"> Manage workflow </li>
+                                        <p> Allows and gives approval of users who can modify, check in document(s), create, delete and destroy anything. </p>
+
+                                        <li class="lead"> Modify Permissions </li>
+                                        <p> Allows users the role to manage document-level permissions of any document, from their properties to security. </p>
+
+                                    </ul>
+                                    
+                                <h5> Dashboard Permissions </h5>
+                                <p> The following defines permission(s) for dashboard and dashlet. </p>
+                                    <ol>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                    </ol>
+
+                                <h5> Content Permissions </h5>
+                                <p> The following defines permission(s) for dashboard and dashlet. </p>
+                                    <ol>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                    </ol>
+                                        <li>  </li>
+                                        <li>  </li>
+                                        <li>  </li>
+                                    </ol>
+
+                                <hr>
+                                
+                                <p> To configure permissions, </p>
+                                <p> The following defines permission(s) for dashboard and dashlet. </p>
+                                <ol>
+                                    <li> Open our Permission Application <a href="">  </a> . </li>
+                                    <li> Select the module of the permission you want to review.</li>
+                                    <li> Make your changes </li>
+                                    <li> Apply changes and then save </li>
+                                    <li> Having issues? Kindly leave a feedback at <a href=""> . </a></li>
+                                </ol>
+
+                            </div>
+
+
+                        </div>
+                        <!-- </div> -->
+
+                    </div>
+                    <!-- End of 2nd Column, 1st row -->
+
+                </div> 
+                <!-- End of row -->
+
+            </div>
+            <!-- End of mainContent -->
+
+            <!-- <div id="footer" style="padding-top:0.2%; padding-bottom:0.1; background-color:#4B8F4B; color:whitesmoke; height:30px;"> -->
+            <div id="footer" style=" margin-top:10px; background-color:#125E12;">                            
+                <footer style="text-align:center; font-size: 15px; color: black;">
+                        <p><a href="#"> Back to top </a></p>                        
+                    <!-- <p class="pull-right"><a href="#" style="color:#1F3F1F">Developed by Team ProNov</a></p> -->                   
+                    <p> &copy; 2017 <a href="https://loftyincltd.biz/" target="_blank" style="color: black;"> LoftyInc Allied Partners </a> and<a href="website.pronov.co/" target="_blank" style="color: black;"> ProNov </a> &middot; All right reserved &middot; <a href="#" style="color: black;">Privacy</a> &middot; <a href="#" style="color: black; padding-top: -10px;">Terms</a></p>
+                    <p> </p>                   
+                    <p> Developed by ProNov Interns </p> 
+                </footer>
+            </div>
+            <!-- End of footer -->
+        
+        </div>
+        <!-- End of mainBody -->
+        
+            <!-- jQuery first, then Tether, then Bootstrap JS. -->
+            <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    </body>
+</html>
