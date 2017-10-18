@@ -17,7 +17,11 @@ a.h6:active{
 }
 
 .text-muted{
+<<<<<<< HEAD
     font-size:14px;
+=======
+    font-size:150%;
+>>>>>>> 939b806c168fd440defcd93ac926596ea53348f9
 }
 
 .h6{
@@ -30,6 +34,7 @@ a.h6:active{
 }
 
 .btn {
+<<<<<<< HEAD
     font-size: 14px;
 }
 
@@ -39,4 +44,11 @@ a.h6:active{
 
 .config{
 	font-size:15px;
+=======
+    font-size: 150%;
+}
+
+.nav-link{
+    font-size: 140%;
+>>>>>>> 939b806c168fd440defcd93ac926596ea53348f9
 }

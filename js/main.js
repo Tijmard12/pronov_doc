@@ -6,11 +6,14 @@ function normalColor(x){
     x.style.color = "white";
 }
 
+<<<<<<< HEAD
 function load_system_req() {
     document.getElementById("content").innerHTML=
     '<iframe src="system_requirement.html" style="width:980px; min-height:480px; border:none;" ></iframe>';
 }
 
+=======
+>>>>>>> 939b806c168fd440defcd93ac926596ea53348f9
 function load_config() {
      document.getElementById("content").innerHTML=
      '<iframe src="config.html" style="width:980px; min-height:480px; border:none;" ></iframe>';
@@ -28,11 +31,16 @@ function load_config2() {
 
 function load_branches() {
      document.getElementById("content").innerHTML=
+<<<<<<< HEAD
      '<iframe src="branches.html#add" style="width:980px; min-height:480px; border:none;" ></iframe>';
+=======
+     '<iframe src="branches.html" style="width:980px; min-height:480px; border:none;" ></iframe>';
+>>>>>>> 939b806c168fd440defcd93ac926596ea53348f9
 }
 
 function load_branches1() {
      document.getElementById("content").innerHTML=
+<<<<<<< HEAD
      '<iframe src="branches.html#access" style="width:980px; min-height:480px; border:none;" ></iframe>';
 }
 
@@ -113,4 +121,7 @@ function load_inventory4() {
 function load_inventory5() {
     document.getElementById("content").innerHTML=
     '<iframe src="inventory.html#modify-" style="width:980px; min-height:480px; border:none" ></iframe>';
+=======
+     '<iframe src="branches.html#manage" style="width:980px; min-height:480px; border:none;" ></iframe>';
+>>>>>>> 939b806c168fd440defcd93ac926596ea53348f9
 }
