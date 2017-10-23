@@ -1,9 +1,13 @@
+div#menuBar.container-fluid{
+width: 71%; 
+margin-left: 11%;
+}
+
 a.text-muted:link, 
 a.text-muted:visited,
 a.text-muted:hover, 
 a.text-muted:active{
     display: block;
-    padding-top: 5px;
     text-decoration: none;
 }
 
@@ -11,44 +15,20 @@ a.h6:link,
 a.h6:visited,
 a.h6:hover, 
 a.h6:active{
-	padding-top: 5px;
-    padding-left: 15px;
+    font-size: 83%;
+    text-align: center;
     text-decoration: none;
 }
 
 .text-muted{
-<<<<<<< HEAD
-    font-size:14px;
-=======
-    font-size:150%;
->>>>>>> 939b806c168fd440defcd93ac926596ea53348f9
+    font-size: 87%;
 }
 
 .h6{
-    font-size: 12px;
+    font-size: 67%;
 }
 
 .card .card-header{
     padding-bottom: 7%;
     border-style: none;
-}
-
-.btn {
-<<<<<<< HEAD
-    font-size: 14px;
-}
-
-.nav-link{
-    font-size: 13px;
-}
-
-.config{
-	font-size:15px;
-=======
-    font-size: 150%;
-}
-
-.nav-link{
-    font-size: 140%;
->>>>>>> 939b806c168fd440defcd93ac926596ea53348f9
 }
