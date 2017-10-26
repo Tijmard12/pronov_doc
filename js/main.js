@@ -6,9 +6,13 @@ function normalColor(x){
     x.style.color = "white";
 }
 
+function infoDisplay() {
+    document.getElementById("content").click();
+}
+
 function load_system_req() {
     document.getElementById("content").innerHTML=
-    '<iframe src="system_requirement.html" style="width: 100%; min-height: 410px; border:none;" ></iframe>';
+    '<iframe src="system_requirement.html" style="width: 100%; min-height: 430px; border:none;" ></iframe>';
 }
 
 function load_config() {
@@ -28,79 +32,80 @@ function load_config2() {
 
 function load_branches() {
      document.getElementById("content").innerHTML=
-     '<iframe src="branches.html#add" style="width: 100%; min-height: 410px; border:none;" ></iframe>';
+     '<iframe src="branches.html#add" style="width: 100%; min-height: 430px; border: none;" ></iframe>';
 }
 
 function load_branches1() {
      document.getElementById("content").innerHTML=
-     '<iframe src="branches.html#access" style="width: 100%; min-height: 410px; border:none;" ></iframe>';
+     '<iframe src="branches.html#access" style="width: 100%; min-height: 430px; border: none;" ></iframe>';
 }
 
 function load_branches2() {
     document.getElementById("content").innerHTML=
-    '<iframe src="branches.html#manage" style="width: 100%; min-height: 410px; border:none;" ></iframe>';
+    '<iframe src="branches.html#manage" style="width: 100%; min-height: 430px; border: none;" ></iframe>';
 }
 
 function load_users() {
     document.getElementById("content").innerHTML=
-    '<iframe src="users.html#add" style="width: 100%; min-height: 410px; border:none;" ></iframe>';
+    '<iframe src="users.html#add" style="width: 100%; min-height: 430px; border: none;" ></iframe>';
 }
 
 function load_users1() {
     document.getElementById("content").innerHTML=
-    '<iframe src="users.html#manage" style="width: 100%; min-height: 410px; border:none;" ></iframe>';
+    '<iframe src="users.html#manage" style="width: 100%; min-height: 430px; border: none;" ></iframe>';
 }
 
 function load_step1() {
     document.getElementById("content").innerHTML=
-    '<iframe src="access.html#step1" style="width: 100%; min-height: 410px; border:none;" ></iframe>';
+    '<iframe src="access.html#step1" style="width: 100%; min-height: 430px; border: none;" ></iframe>';
 }
 
 function load_step2() {
     document.getElementById("content").innerHTML=
-    '<iframe src="access.html#step2" style="width: 100%; min-height: 410px; border:none;" ></iframe>';
+    '<iframe src="access.html#step2" style="width: 100%; min-height: 40px; border: none;" ></iframe>';
 }
 
 function load_step3() {
     document.getElementById("content").innerHTML=
-    '<iframe src="access.html#step3" style="width: 100%; min-height: 410px; border:none;" ></iframe>';
+    '<iframe src="access.html#step3" style="width: 100%; min-height: 430px; border: none;" ></iframe>';
 }
 
 function load_step4() {
     document.getElementById("content").innerHTML=
-    '<iframe src="access.html#step4" style="width: 100%; min-height: 410px; border:none;" ></iframe>';
+    '<iframe src="access.html#step4" style="width: 100%; min-height: 430px; border: none;" ></iframe>';
 }
 
 function load_login() {
     document.getElementById("content").innerHTML=
-    '<iframe src="access.html#login" style="width: 100%; min-height: 410px; border:none;" ></iframe>';
+    '<iframe src="access.html#login" style="width: 100%; min-height: 430px; border: none;" ></iframe>';
 }
 
 function load_inventory() {
     document.getElementById("content").innerHTML=
-    '<iframe src="inventory.html#barcode" style="width: 100%; min-height: 410px; border:none" ></iframe>';
+    '<iframe src="inventory.html#barcode" style="width: 100%; min-height: 430px; border:none" ></iframe>';
 }
 
 function load_inventory1() {
     document.getElementById("content").innerHTML=
-    '<iframe src="inventory.html#nobarcode" style="width: 100%; min-height: 410px; border:none" ></iframe>';
+    '<iframe src="inventory.html#nobarcode" style="width: 100%; min-height: 430px; border:none" ></iframe>';
 }
 function load_inventory2() {
     document.getElementById("content").innerHTML=
-    '<iframe src="inventory.html#search" style="width: 100%; min-height: 410px; border:none" ></iframe>';
+    '<iframe src="inventory.html#search" style="width: 100%; min-height: 430px; border: none" ></iframe>';
 }
 
 function load_inventory3() {
     document.getElementById("content").innerHTML=
-    '<iframe src="inventory.html#shelve" style="width: 100%; min-height: 410px; border:none" ></iframe>';
+    '<iframe src="inventory.html#shelve" style="width: 100%; min-height: 430px; border: none" ></iframe>';
 }
 
 function load_inventory4() {
     document.getElementById("content").innerHTML=
-    '<iframe src="inventory.html#modify" style="width:980px; min-height: 410px; border:none" ></iframe>';
+    '<iframe src="inventory.html#modify" style="width:980px; min-height: 430px; border: none" ></iframe>';
 }
 
 function load_inventory5() {
     document.getElementById("content").innerHTML=
-    '<iframe src="inventory.html#modify-" style="width:980px; min-height: 410px; border:none" ></iframe>';
+    '<iframe src="inventory.html#modify-" style="width:980px; min-height: 430px; border: none" ></iframe>';
 }
+
