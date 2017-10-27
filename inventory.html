@@ -3,12 +3,18 @@
 
     <head>
 
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="col-sm-3">                
+                <img src="img/inventory_scan.png" class="img-thumbnail" width="93%" height="97%" >
+            </div>
+            
+            <div class="col-sm-9">
+                <p class="lead"> 
+                    This sections allows the automatic adding of products to the inventory shelve. 
+                    It does it by scanning the barcode on the product when the center of the page [Tap to scan product] is tapped
+                </p>
+            </div>
+        
+        </div>
 
         <link rel="icon" type="image/png" href="img\ProNov.png">
         <title> ProNov Documentation </title>
@@ -36,6 +42,10 @@
                     </p>
                 </div>
             
+            </div>
+                
+            <div class = "col-sm-3">
+                <img src="img/inventory_add.png" class="img-thumbnail" width="93%" height="97%">
             </div>
 
         </div>
@@ -65,6 +75,14 @@
                     <img src="img/inventory_add.png" width="93%" height="97%">
                 </div>
 
+    <div class="inventory" id="search" style="margin-bottom: 3%">
+        <h3 class="display-6"> Search + Add</h3>
+        <hr>
+       
+        <div class="row center-content-sm-center">
+            
+            <div class = "col-sm-3">
+                <img src="img/Inventory_Search+Add.png" class="img-thumbnail" width="93%" height="97%" >
             </div>
             
         </div>
@@ -126,7 +144,15 @@
             <h3> Modify </h3>
             <hr>
 
-            <!-- <div class="row center-content-sm-center">   
+            <div class="col-sm-9">
+                <p class="lead">
+                    This sections is called the Shelve. It shows the list of all the added products for the reference branch. It allows modification on the products.
+                </p>
+            </div>
+                
+            <div class = "col-sm-3">
+                <img src="img/inventory_shelve.png" class="img-thumbnail" width="93%" height="97%">
+            </div>
 
                 <div class="col-sm-12"> -->
                     <p class="lead"> 
@@ -136,24 +162,25 @@
 
             </div>    -->
                 
-            <div class="row center-content-sm-center">                
-                            
-                <div class="col-sm-4">
-                    <img src="img/Inventory_product.png"  width="93%" height="97%">                    
-                </div>
-
-                <div class="col-sm-4">
-                    <img src="img/Inventory_product+.png"  width="93%" height="97%">                     
-                </div>
-
-                <div class="col-sm-4">
-                    <img src="img/Inventory_product -.png"  width="93%" height="97%">       
-                </div>   
-
+        <h5 class="display-4"> Modify </h5>
+        <hr>
+            
+        <div class="row center-content-sm-center">                
+            <div class="col-sm-3">
+                <p class="lead"> 
+                    This section allows the modification of the added products. The modification can either be additions or removal. 
+                </p>                    
+            </div>   
+                        
+            <div class="col-sm-3">
+                <img src="img/Inventory_product.png" class="img-thumbnail" width="93%" height="97%">                    
             </div>
 
-        </div>
+            <div class="col-sm-3">
+                <img src="img/Inventory_product+.png"class="img-thumbnail"  width="93%" height="97%">                     
+            </div>
 
-    </body>
-    
-</html>
+            <div class="col-sm-3">
+                <img src="img/Inventory_product -.png" class="img-thumbnail" width="93%" height="97%">       
+            </div>   
+
