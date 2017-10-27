@@ -1,12 +1,14 @@
-div#menuBar.container-fluid{
-width: 71%; 
-margin-left: 11%;
+div#menuBar.container-fluid
+{
+    width: 71%; 
+    margin-left: 11%;
 }
 
 a.text-muted:link, 
 a.text-muted:visited,
 a.text-muted:hover, 
-a.text-muted:active{
+a.text-muted:active
+{
     display: block;
     text-decoration: none;
 }
@@ -14,21 +16,124 @@ a.text-muted:active{
 a.h6:link, 
 a.h6:visited,
 a.h6:hover, 
-a.h6:active{
+a.h6:active
+{
     font-size: 83%;
     text-align: center;
     text-decoration: none;
 }
 
-.text-muted{
+.text-muted
+{
     font-size: 87%;
 }
 
-.h6{
+.h6
+{
     font-size: 67%;
 }
 
-.card .card-header{
+.card .card-header
+{
     padding-bottom: 7%;
     border-style: none;
 }
+
+/* nav 
+{
+
+    width: 100%;
+} */
+
+/* nav.breadcrumb */
+
+/* .btnInfo
+{
+    padding-left: 13%;
+} */
+
+header
+{
+    padding: 0.5%; 
+    padding-left: 1.5%; 
+    background-color:rgb(48, 114, 48); 
+    font-size: 123%; 
+    color: white; 
+    font-family: vernada;
+}
+
+div#menuBar.container-fluid
+{
+    margin-top: -5%;
+    padding-left: 7%;
+}
+
+div.container-fluid
+{
+    padding: 1%;
+}
+
+div#content.infoDisplay
+{
+    margin-top: -4%;
+    padding: 1%;
+    text-align: justify;
+}
+
+h6.display-4
+{
+    padding-left: 12%;
+}
+
+a
+{
+    color: black;
+}
+
+hr
+{
+    padding: 1%;
+}
+
+iframe
+{
+    height: 480px;
+    width: 103%;
+    border:none;
+}
+
+/* div#topNav div header img#img
+{
+    height:"5px"; 
+    width:"5px"; 
+}
+
+div img
+{
+    width:93%;
+     height:97%;
+} */
+
+div#add.branch,
+div#access.branch,
+div#registration.access,
+div#step1.access,
+div#step2.access,
+div#step3.access,
+div#barcode.inventory,
+div#nobarcode.inventory,
+div#search.inventory,
+div#shelve.inventory
+{
+    margin-bottom: 5%
+}
+
+footer
+{
+    margin-top: 3%;
+    background-color: #F3F3F3;
+    text-align:center; 
+    font-size: 80%; 
+    color: black;
+}
+ 
