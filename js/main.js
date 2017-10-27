@@ -16,16 +16,6 @@ function load_config() {
      '<iframe src="config.html" style="width:980px; min-height:520px; border:none;" ></iframe>';     
 }
 
-function load_config1() {
-     document.getElementById("content").innerHTML=
-     '<iframe src="config.html#manage" style="width:980px; min-height:520px; border:none;" ></iframe>';
-}
-
-function load_config2() {
-     document.getElementById("content").innerHTML=
-     '<iframe src="config.html#search" style="width:980px; min-height:520px; border:none;" ></iframe>';
-}
-
 function load_branches() {
      document.getElementById("content").innerHTML=
      '<iframe src="branches.html#add" style="width: 100%; min-height: 520px; border:none;" ></iframe>';
