@@ -8,16 +8,22 @@ function normalColor(x)
     x.style.color = "white";
 }
 
-function infoDisplay() 
-{
-    document.getElementById("content").click();
-}
+// function infoDisplay() 
+// {
+//     document.getElementById("content").click();
+// }
 
-function load_index() 
-{
-    document.getElementById("content").innerHTML=
-    '<iframe src="index.html"></iframe>';
-}
+// $(function load_index() 
+// {
+//     document.getElementById("content").innerHTML=
+//     $("#content").load("index.html")
+// });
+
+// function load_index() 
+// {
+//     document.getElementById("content").innerHTML=
+//     '<link rel=import href="index.html#content">';    
+// }
 
 function load_system_req() 
 {

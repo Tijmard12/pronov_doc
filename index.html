@@ -118,7 +118,7 @@
 
                                             <div class="card-header" role="tab" id="headingOne">
                                                 <h6 class="mb-0" onclick="openContent(event, 'GettingStarted')" id="defaultOpen">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" small class="text-muted" onclick="load_index()">
+                                                    <a href="index.html" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" small class="text-muted">
                                                         <i class="fa fa-spinner" aria-hidden="true"></i> 
                                                             Getting Started
                                                     </a>
@@ -131,7 +131,7 @@
 
                                             <div class="card-header" role="tab" id="headingTwo">
                                                 <h6 class="mb-0" onclick="openContent(event, 'SystemRequirements')">    
-                                                    <a  data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" small class="text-muted" onclick="load_system_req()">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" small class="text-muted" onclick="load_system_req()">
                                                         <i class="fa fa-list" aria-hidden="true"></i> 
                                                             Requirements 
                                                     </a>
@@ -470,8 +470,8 @@
                 <p> 
                     Developed by ProNov Interns &copy; 2017 
                     <a href="https://loftyincltd.biz/" target="_blank"> LoftyInc Allied Partners </a> &middot; All right reserved &middot; 
-                    <a  href="website.pronov.co/" target="_blank"> Privacy </a> &middot; 
-                    <a  href="website.pronov.co/" target="_blank"> Terms </a>
+                    <a href="website.pronov.co/" target="_blank"> Privacy </a> &middot; 
+                    <a href="website.pronov.co/" target="_blank"> Terms </a>
                 </p> 
                     
             </footer>
@@ -504,14 +504,14 @@
                 
                 for (i = 0; i < btnInfo.length; i++)
                 {
-                    btnInfo[i].className = btnInfo[i].className.replace(" active", "");
+                    btnInfo[i].className = btnInfo[i].className.replace("active", "");
                 }
             
                 document.getElementById(accordionList).style.display = "block";
-                evt.currentTarget.className += " active";
+                evt.currentTarget.className += "active";
             }
                 
-            // Get the element with id="defaultOpen" and click on it
+            // On default, get the element with id="defaultOpen", else get element clicked
             document.getElementById("defaultOpen").click();
         </script>
 
