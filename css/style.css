@@ -100,6 +100,12 @@ iframe
     width: 103%;
     border: none;
     margin-top: -2.5%;
+    scroll-behavior: none;
+    overflow: none;
+    overflow: hidden;
+    text-overflow: none;
+    text-overflow: hidden;
+-webkit-overflow-scrolling: none;    
 }
 
 /* nav image styling
