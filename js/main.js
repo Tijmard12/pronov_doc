@@ -8,11 +8,6 @@ function normalColor(x)
     x.style.color = "white";
 }
 
-function infoDisplay() 
-{
-    document.getElementById("content").click();
-}
-
 function load_system_req() 
 {
     document.getElementById("content").innerHTML=
@@ -132,7 +127,39 @@ function load_inventory5()
     '<iframe src="inventory.html#modify-"></iframe>';
 }
 
+function load_dashboard() 
+{
+    document.getElementById("content").innerHTML=
+    '<iframe src="dashboard_home.html#sale"></iframe>';
+}
 
+function load_dashboard1() 
+{
+    document.getElementById("content").innerHTML=
+    '<iframe src="dashboard_home.html#query"></iframe>';
+}
 
+function load_AddStore() 
+{
+    document.getElementById("content").innerHTML=
+    '<iframe src="store.html#add"></iframe>';
+}
 
+function load_ManageStore() 
+{
+    document.getElementById("content").innerHTML=
+    '<iframe src="store.html#manage"></iframe>';
+}
+
+function load_SearchStore() 
+{
+    document.getElementById("content").innerHTML=
+    '<iframe src="store.html#search"></iframe>';
+}
+
+function load_permissions() 
+{
+    document.getElementById("content").innerHTML=
+    '<iframe src="permission.html#permissions"></iframe>';
+}
 
